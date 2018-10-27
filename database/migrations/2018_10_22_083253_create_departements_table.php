@@ -17,11 +17,7 @@ class CreateDepartementsTable extends Migration
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->string ('designation');
-            $table->string('role');
-            $table->integer('chef_id')->unsigned();
-            $table->foreign('chef_id')
-                   ->references('id')
-                    ->on ('users');
+            $table->string('role')->nullable(true);
             $table->timestamps();
         });
     }

@@ -17,8 +17,7 @@ class CreateYearsTable extends Migration
              $table->engine = 'InnoDB';
            $table->increments('id');
             $table->string('scholar_year');
-           $table->string('president');
-           $table->string('vice');
+            $table->boolean('actuel')->default(true);
             $table->timestamps();
         });
     }

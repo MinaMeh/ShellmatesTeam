@@ -12,7 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('years.create');
+    return view('years.show');
 });
+Route::get('/years','YearsController@show');
 Route::get('/years/create','YearsController@create');
 Route::post('/years/add', 'YearsController@store');
+
+Route::get('/members','MembersController@show');
+Route::post('/members/add','MembersController@store');
+
+Route::get('/departements','DepartementsController@show');
+Route::post('/departements/add','DepartementsController@store');
+
+
+Route::get('/formations','FormationsController@show');

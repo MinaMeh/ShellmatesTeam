@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" >
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/style1.css">
@@ -12,7 +13,6 @@
     <link rel="stylesheet" href="/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="/vendors/css/vendor.bundle.addons.css">
     <link rel="stylesheet" href="/vendors/css/vendor.bundle.base.css">
-    <link rel="shortcut icon" href="/img/logo.png" />
    <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
       <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js" ></script>
 

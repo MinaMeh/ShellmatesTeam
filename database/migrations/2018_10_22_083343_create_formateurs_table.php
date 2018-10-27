@@ -19,8 +19,7 @@ class CreateFormateursTable extends Migration
             $table->string('nom');
             $table->string('prenom');
             $table->string('email')->unique();
-            $table->string('password');
-            $table->string('facebook');
+            $table->string('facebook')->nullable(true);
             $table->string('phone');
             $table->timestamps();
         });

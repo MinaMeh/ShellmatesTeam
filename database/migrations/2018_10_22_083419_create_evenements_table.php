@@ -17,6 +17,7 @@ class CreateEvenementsTable extends Migration
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->string('designation');
+            $table->date('date');
             $table->integer('year_id')->unsigned();
             $table->foreign('year_id')->references('id')->on('years');
             $table->timestamps();

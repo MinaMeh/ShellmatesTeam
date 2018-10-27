@@ -24,6 +24,7 @@ class CreateDepartementUserTable extends Migration
             $table->foreign('departement_id')
                   ->references('id')
                   ->on ('departements');
+            $table->string('poste');
             $table->timestamps();
         });
     }

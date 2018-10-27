@@ -3234,11 +3234,11 @@ tbody.collapse.show {
 
 .badge-success, .preview-list .preview-item .preview-thumbnail .badge.badge-online {
   color: #fff;
-  background-color: #00ce68; }
+  background-color: #7fad30; }
   .badge-success[href]:hover, .preview-list .preview-item .preview-thumbnail [href].badge.badge-online:hover, .badge-success[href]:focus, .preview-list .preview-item .preview-thumbnail [href].badge.badge-online:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #009b4e; }
+    background-color: #7fad30; }
 
 .badge-info, .preview-list .preview-item .preview-thumbnail .badge.badge-offline {
   color: #fff;
@@ -6812,7 +6812,7 @@ html {
 
 .main-panel {
   transition: width 0.25s ease, margin 0.25s ease;
-  width: calc(100% - 217px);
+  width: calc(100% - 180px);
   min-height: calc(100vh - 63px);
   display: -webkit-flex;
   display: flex;
@@ -7102,13 +7102,13 @@ pre {
     color: #ffffff;
     border-radius: 5px; }
     .purchace-popup > div > span .btn.download-button {
-      background: #3ddf48;
+      background: #7fad30;
       color: #fff;
-      border: 2px solid #38c942; }
+      border: 2px solid #7fad30; }
       .purchace-popup > div > span .btn.download-button:hover {
-        background: #35c53f ;
+        background: #7fad00 ;
         color: #fff;
-        border: 2px solid #38c942; }
+        border: 2px solid #7fad00; }
     
   .purchace-popup > div > span p {
     margin-bottom: auto;
@@ -7268,7 +7268,7 @@ pre {
   color: #ffffff; }
 
 .badge-success, .preview-list .preview-item .preview-thumbnail .badge.badge-online {
-  border: 1px solid #00ce68;
+  border: 1px solid #7fad30;
   color: #ffffff; }
 
 .badge-info, .preview-list .preview-item .preview-thumbnail .badge.badge-offline {
